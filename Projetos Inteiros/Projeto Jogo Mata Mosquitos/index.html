@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mata Mosquito</title>
+	<link rel="stylesheet" type="text/css" href="campo.css">
+</head>
+<body onresize= "ajustaTamanho()">
+	<div class="statusJogo">
+		<img src="imagens/game.png" class="imgpaginaInicial">
+		<p style="font-family: sans-serif; font-weight: bold;">Selecione a Dificuldade:</p>
+		<select class="selecaoDificuldade" id="selecaoDificuldade">
+			<option value="normal">Normal</option>
+			<option value="dificil">Difícil</option>
+			<option value="dengue">Dengue</option>
+		</select>
+		<button id="btnReiniciarIniciar" onclick="iniciarJogo()">Iniciar Jogo</button>
+	</div>
+	<script type="text/javascript" src="iniciar.js"></script>
+</body>
+</html>

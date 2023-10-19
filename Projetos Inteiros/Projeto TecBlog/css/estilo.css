@@ -1,0 +1,126 @@
+/*Limpeza de formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e8e8e8;
+}
+
+/*
+*****Layout*****
+*/
+#area-cabecalho{
+	background-color: #f7b600;
+	text-align: center;
+	padding: 15px;
+}
+
+#area-logo, #area-menu{
+	padding: 10px;
+}
+
+#area-principal{
+	background: yellowgreen;
+	margin: 0 3%;
+}
+
+#area-postagens{
+	width: 70%;
+	float: left;
+}
+
+.postagem{
+	padding: 1em;
+	margin-bottom: 10px;
+	background: white;
+}
+
+#area-lateral{
+	width: 25%;
+	float: right;
+	background: white;
+}
+
+#area-postagens, #area-lateral{
+	margin: 10px 0 10px 0;
+}
+
+.conteudo-lateral{
+	padding: 2px;
+}
+
+.postagem-lateral{
+	margin: 5px 0;
+	font-size: 0.70em;
+	padding: 0 2px 8px;
+	border-bottom: 1px dotted dimgray;
+	text-align: justify;
+}
+
+#rodape{
+	background: #ccc;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+}
+/*
+*****Formatação do menu/links*****
+*/
+a {
+	text-decoration: none;
+	color: #f7b600;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+	color: #fff;
+	padding: 8px 12px;
+}
+
+#area-cabecalho a:hover{
+	color: #f7b600;
+	background-color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+/*
+*****Formatações Gerais*****
+*/
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+h2{
+	color: #f7b600;
+}
+
+h3{
+	color: #565656;
+	font-size: 0.8em;
+	background: #ccc;
+	padding: 2px;
+}
+
+.branco{
+	color: #fff;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+.data-postagem{
+	font-size: 0.75em;
+	display: block;
+	padding-bottom: 10px;
+}

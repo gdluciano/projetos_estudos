@@ -1,0 +1,102 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#fundo {
+	background: #F3B57F;
+	background-image: url("https://www.transparenttextures.com/patterns/gray-floral.png");
+}
+
+#formatacao {
+	position: absolute;
+	background-color: #FEAE81;
+	font: normal normal normal 1em Arial;
+	margin: 0 6%;
+	box-shadow: 0 0 30px 2px #490600;
+	top: 0;
+	width: 88%;
+}
+
+#imgbanner {
+	max-width: 100%;
+}
+
+#banner {
+	top: 0;
+	bottom: 0;
+}
+
+#barra {
+	position: relative;
+	top: 0;
+	background-color: #FEAE81;
+	box-shadow: 0 4px 5px -3px #490600;
+	border-radius: 0 0 5px 5px;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	/*float: left;*/
+	text-align: center;
+	/*display: inline-block;*/
+	/*border: 1px solid red;*/
+}
+
+.links {
+	/*border: 1px solid red;*/
+	display: inline-block;
+	text-decoration: none;
+	color: #490600;
+	font-weight: bold;
+	font-size: 1.25em;
+	text-align: center;
+	padding: 8px 20px;
+	margin: 2px;
+	border-radius: 30px 30px;
+}
+
+.links:hover {
+	background-color: ghostwhite;
+	border-radius: 30px 30px;
+	box-shadow: 0 2px 5px 0 #490600 inset;
+}
+
+#crtpg {
+	background-color: ghostwhite;
+	border-radius: 30px 30px;
+	box-shadow: 0 2px 5px 0 #490600 inset;
+}
+
+section {
+	padding: 0 25px;
+	text-align: justify;
+}
+
+h1 {
+	color: #490600;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+}
+
+.imgs {
+	border: 1px solid red;
+	float: left;
+	width: 100%;
+	max-width: 300px;
+	padding: 2px;
+}
+
+.clear {
+	clear: both;
+}
